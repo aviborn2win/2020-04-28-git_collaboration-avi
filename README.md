@@ -15,3 +15,13 @@ Git collaboration workshop
 - git switch -c <branch_ name> : create and move in 1 command
 - git checkout -b <branch_name> 
 
+## Pull requests (Online Merge)
+
+- git push origin <branch_name> : pushes branch to the remote
+	- this is where you will create the PR (online)
+	- merge the PR (aso the branch) by accepting and merging the PR
+- dont forget to clean up your branches 
+- git fetch --prune : cleans up the refernces in your git  log --oneline --graph --decorate - all
+- git branch -d <branch_name> : delete branch on your local machine.
+	- it will tell u to move to another branch (ex: master) first
+
